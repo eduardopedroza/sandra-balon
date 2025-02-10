@@ -100,15 +100,25 @@ const Footer = () => {
                   Síguenos
                 </h1>
                 <div className="flex items-center gap-3">
-                  <a href="#" className="hover:text-primary duration-300">
+                  <a
+                    href="https://www.instagram.com/mediformulas/"
+                    className="hover:text-primary duration-300"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FaInstagram className="text-3xl" />
                   </a>
-                  <a href="#" className="hover:text-primary duration-300">
+                  <a
+                    href="https://www.facebook.com/formulasbebecuernajiute/"
+                    className="hover:text-primary duration-300"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FaFacebook className="text-3xl" />
                   </a>
-                  <a href="#" className="hover:text-primary duration-300">
+                  {/* <a href="#" className="hover:text-primary duration-300">
                     <FaLinkedin className="text-3xl" />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
