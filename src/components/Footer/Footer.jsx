@@ -46,7 +46,7 @@ const Footer = () => {
           <div className="py-8 px-4">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
               <img src={footerLogo} alt="" className="max-w-[50px]" />
-              Catálogo Médico
+              Mediformulas
             </h1>
             <p>
               Tu salud es nuestra prioridad. Ofrecemos medicamentos y
@@ -83,11 +83,11 @@ const Footer = () => {
                 <ul className="flex flex-col gap-3">
                   <li className="flex items-center gap-3">
                     <FaLocationArrow />
-                    <p>Isaías Cabrera García, Cuernavaca, Morelos</p>
+                    <p>Diana L. Aguilar, Cuernavaca, Morelos</p>
                   </li>
                   <li className="flex items-center gap-3">
                     <FaMobileAlt />
-                    <p>+52 777 534 0195</p>
+                    <p>+52 777 801 4302</p>
                   </li>
                 </ul>
               </div>
