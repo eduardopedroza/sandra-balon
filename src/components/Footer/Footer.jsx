@@ -56,7 +56,7 @@ const Footer = () => {
 
           {/* Enlaces del Footer */}
           <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10">
-            <div>
+            {/* <div>
               <div className="py-8 px-4">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
                   Enlaces Importantes
@@ -72,7 +72,7 @@ const Footer = () => {
                   ))}
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             {/* Información de contacto */}
             <div>
@@ -83,7 +83,7 @@ const Footer = () => {
                 <ul className="flex flex-col gap-3">
                   <li className="flex items-center gap-3">
                     <FaLocationArrow />
-                    <p>Diana L. Aguilar, Cuernavaca, Morelos</p>
+                    <p>Cuernavaca, Morelos</p>
                   </li>
                   <li className="flex items-center gap-3">
                     <FaMobileAlt />
