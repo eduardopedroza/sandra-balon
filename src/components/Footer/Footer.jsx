@@ -75,26 +75,26 @@ const Footer = () => {
             </div> */}
 
             {/* Información de contacto */}
-            <div>
+            {/* <div>
               <div className="py-8 px-4">
-                <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
+                {/* <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
                   Contacto
-                </h1>
-                <ul className="flex flex-col gap-3">
+                </h1> */}
+            {/* <ul className="flex flex-col gap-3">
                   <li className="flex items-center gap-3">
                     <FaLocationArrow />
                     <p>Cuernavaca, Morelos</p>
                   </li>
-                  <li className="flex items-center gap-3">
-                    <FaMobileAlt />
+                  {/* <li className="flex items-center gap-3"> */}
+            {/* <FaMobileAlt />
                     <p>+52 777 801 4302</p>
-                  </li>
-                </ul>
+                  </li> */}
+            {/* </ul>
               </div>
-            </div>
+            </div> */}
 
             {/* Redes sociales */}
-            <div>
+            {/* <div>
               <div className="py-8 px-4">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
                   Síguenos
@@ -119,9 +119,9 @@ const Footer = () => {
                   {/* <a href="#" className="hover:text-primary duration-300">
                     <FaLinkedin className="text-3xl" />
                   </a> */}
-                </div>
+            {/* </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
