@@ -17,10 +17,10 @@ const ProductsData = [
     title:
       "Exforge HCT 5 mg/160 mg/12.5 mg Oral 28 Comprimidos (Antihipertensivos)",
     price: {
-      mediformulas: 910,
+      mediformulas: Math.round(910 * 1.1),
       ahorro: 1557,
       guadalajara: 1416,
-      discount: 40,
+      discount: 40 - 10,
     },
   },
   {
@@ -29,10 +29,10 @@ const ProductsData = [
     title:
       "Exetin-A 4000U/ml Solución Inyectable, 6 Frascos de 1 ml (Eritropoyetina Humana Recombinante)",
     price: {
-      mediformulas: 910,
+      mediformulas: Math.round(910 * 1.1),
       ahorro: 1610,
       guadalajara: 1233,
-      discount: 40,
+      discount: 40 - 10,
     },
   },
   {
@@ -41,10 +41,10 @@ const ProductsData = [
     title:
       "KI-CAB Tratamiento para enfermedades relacionadas al ácido (ERGE, Úlcera, H. pylori)",
     price: {
-      mediformulas: 400,
+      mediformulas: Math.round(400 * 1.1),
       ahorro: 692,
       guadalajara: 642,
-      discount: 43,
+      discount: 43 - 10,
     },
   },
   {
@@ -53,11 +53,11 @@ const ProductsData = [
     title:
       "Victoza (Liraglutida) 6 mg/ml 2 Plumas Precargadas C/3 ml (Antidiabético)",
     price: {
-      mediformulas: 2750,
+      mediformulas: Math.round(2750 * 1.1),
       especializadas: 4812.41,
       ahorro: "No disponible",
       guadalajara: "No disponible",
-      discount: 43,
+      discount: 43 - 10,
     },
   },
   {
@@ -65,10 +65,10 @@ const ProductsData = [
     img: Jardianz,
     title: "Jardianz (Empagliflozina) 25 mg, 30 Tabletas (Antidiabético)",
     price: {
-      mediformulas: 1150,
+      mediformulas: Math.round(1150 * 1.1),
       ahorro: 1995,
       guadalajara: 1779.94,
-      discount: 43,
+      discount: 43 - 10,
     },
   },
   {
@@ -76,10 +76,10 @@ const ProductsData = [
     img: Forxiga,
     title: "Forxiga (Dapagliflozina) 10 mg, 28 Tabletas (Antidiabético)",
     price: {
-      mediformulas: 910,
+      mediformulas: Math.round(910 * 1.1),
       ahorro: 1841,
       guadalajara: 1500.24,
-      discount: 40,
+      discount: 40 - 10,
     },
   },
   {
@@ -87,10 +87,10 @@ const ProductsData = [
     img: Trayenta,
     title: "Trayenta 5 mg (Linagliptina) 30 Tabletas (Antidiabético)",
     price: {
-      mediformulas: 910,
+      mediformulas: Math.round(910 * 1.1),
       ahorro: 1911,
       guadalajara: 1756.29,
-      discount: 53,
+      discount: 53 - 10,
     },
   },
   {
@@ -99,10 +99,10 @@ const ProductsData = [
     title:
       "Bedoyecta Tri 10,000 mcg, 100 mg, 50 mg/2 ml Solución Inyectable, 5 Jeringas (Vitaminas)",
     price: {
-      mediformulas: 350,
+      mediformulas: Math.round(350 * 1.1),
       ahorro: 462,
       guadalajara: 449.15,
-      discount: 25,
+      discount: 25 - 10,
     },
   },
   {
@@ -110,10 +110,10 @@ const ProductsData = [
     img: Terbac,
     title: "Terbac LM 1 gr, (Ceftriaxona) Solución Inyectable (Antibiótico)",
     price: {
-      mediformulas: 200,
+      mediformulas: Math.round(200 * 1.1),
       ahorro: 399,
       guadalajara: 256.5,
-      discount: 21,
+      discount: 21 - 10,
     },
   },
   {
@@ -122,13 +122,14 @@ const ProductsData = [
     title:
       "Hepa Merz 3 gr, 10 Sobres Granulado (L-Ornitina L-Aspartato) (Hepatopatía, Cirrosis, Hígado graso)",
     price: {
-      mediformulas: 350,
+      mediformulas: Math.round(350 * 1.1),
       ahorro: 498,
       guadalajara: 444.65,
-      discount: 30,
+      discount: 30 - 10,
     },
   },
 ];
+
 const Products = () => {
   return (
     <div className="mt-14 mb-12">
