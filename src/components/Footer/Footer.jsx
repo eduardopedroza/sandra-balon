@@ -1,5 +1,5 @@
 import React from "react";
-import footerLogo from "../../assets/logo.jpeg";
+import footerLogo from "../../assets/newLogo.jpg";
 import Banner from "../../assets/wesbite/footer-pattern.jpg";
 import {
   FaFacebook,
@@ -115,9 +115,6 @@ const Footer = () => {
                     rel="noopener noreferrer"
                   >
                     <FaFacebook className="text-3xl" />
-                  </a>
-                  <a href="#" className="hover:text-primary duration-300">
-                    <FaLinkedin className="text-3xl" />
                   </a>
                   /*{" "}
                 </div>
