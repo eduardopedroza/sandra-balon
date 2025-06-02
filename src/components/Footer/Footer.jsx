@@ -94,14 +94,14 @@ const Footer = () => {
             </div> */}
 
             {/* Redes sociales */}
-            {/* <div>
+            <div>
               <div className="py-8 px-4">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
                   Síguenos
                 </h1>
                 <div className="flex items-center gap-3">
                   <a
-                    href="https://www.instagram.com/mediformulas/"
+                    href="https://www.instagram.com/sandra_balon?igsh=NTc4MTIwNjQ2YQ=="
                     className="hover:text-primary duration-300"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -109,19 +109,20 @@ const Footer = () => {
                     <FaInstagram className="text-3xl" />
                   </a>
                   <a
-                    href="https://www.facebook.com/formulasbebecuernajiute/"
+                    href="https://m.facebook.com/sandra.balon.1/"
                     className="hover:text-primary duration-300"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <FaFacebook className="text-3xl" />
                   </a>
-                  {/* <a href="#" className="hover:text-primary duration-300">
+                  <a href="#" className="hover:text-primary duration-300">
                     <FaLinkedin className="text-3xl" />
-                  </a> */}
-            {/* </div>
+                  </a>
+                  /*{" "}
+                </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

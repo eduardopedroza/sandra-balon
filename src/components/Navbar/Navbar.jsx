@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/logo.jpeg";
+import Logo from "../../assets/newLogo.jpg";
 import { CiSearch } from "react-icons/ci";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaCaretDown } from "react-icons/fa";

@@ -159,8 +159,9 @@ const Hero = ({ handleOrderPopup }) => {
                   </h1>
                   <p className="text-2xl mt-2">
                     <span className="text-green-500 font-bold">
-                      PharmaX: ${data.price.mediformulas.toLocaleString()}{" "}
-                      (hasta {data.price.discount}% de ahorro)
+                      Precio Preferencial: $
+                      {data.price.mediformulas.toLocaleString()} (hasta{" "}
+                      {data.price.discount}% de ahorro)
                     </span>
                     <br />
                     {data.id === 4 ? (
